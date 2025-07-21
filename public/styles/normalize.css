@@ -75,6 +75,7 @@ pre {
 
 a {
   background-color: transparent;
+ /* Prevents text-decoration from being overridden by user agent styles */
 }
 
 /**

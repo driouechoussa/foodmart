@@ -1,5 +1,11 @@
 <header>
       <div class="container-fluid">
+        <div class="row py-2">
+          <div class="support-box text-end d-none d-xl-block">
+              <span class="fs-6 text-muted">For Support?</span>
+              <span><a href="tel:+980-34984089">+980-34984089</a></span>
+            </div>
+        </div>
         <div class="row py-3 border-bottom">
           
           <div class="col-sm-4 col-lg-3 text-center text-sm-start">
@@ -13,7 +19,7 @@
           <div class="col-sm-6 offset-sm-2 offset-md-0 col-lg-5 d-none d-lg-block">
             <div class="search-bar row bg-light p-2 my-2 rounded-4">
               <div class="col-md-4 d-none d-md-block">
-                <select class="form-select border-0 bg-transparent">
+                <select class="form-select pointer shadow-none border-0 bg-transparent">
                   <option>All Categories</option>
                   <option>Groceries</option>
                   <option>Drinks</option>
@@ -22,7 +28,7 @@
               </div>
               <div class="col-11 col-md-7">
                 <form id="search-form" class="text-center" action="index.html" method="post">
-                  <input type="text" class="form-control border-0 bg-transparent" placeholder="Search for more than 20,000 products" />
+                  <input type="text" class="form-control shadow-none border-0 bg-transparent" placeholder="Search for more than 20,000 products" />
                 </form>
               </div>
               <div class="col-1">
@@ -32,10 +38,7 @@
           </div>
           
           <div class="col-sm-8 col-lg-4 d-flex justify-content-end gap-5 align-items-center mt-4 mt-sm-0 justify-content-center justify-content-sm-end">
-            <div class="support-box text-end d-none d-xl-block">
-              <span class="fs-6 text-muted">For Support?</span>
-              <h5 class="mb-0">+980-34984089</h5>
-            </div>
+            
 
             <ul class="d-flex justify-content-end list-unstyled m-0">
               <li>
@@ -78,7 +81,7 @@
 
                 <div class="offcanvas-body">
               
-                  <select class="filter-categories border-0 mb-0 me-5">
+                  <select class="filter-categories rounded px-3 border-0 mb-0 me-5">
                     <option>Shop by Departments</option>
                     <option>Groceries</option>
                     <option>Drinks</option>

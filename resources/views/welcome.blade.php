@@ -1944,8 +1944,8 @@
                 <h2 class="my-5">Shop faster with foodmart App</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis sed ptibus liberolectus nonet psryroin. Amet sed lorem posuere sit iaculis amet, ac urna. Adipiscing fames semper erat ac in suspendisse iaculis. Amet blandit tortor praesent ante vitae. A, enim pretiummi senectus magna. Sagittis sed ptibus liberolectus non et psryroin.</p>
                 <div class="d-flex gap-2 flex-wrap">
-                  <img src="{{asset('images/patterns/app-store.jpg')}}" alt="app-store">
-                  <img src="{{asset('images/patterns/google-play.jpg')}}" alt="google-play">
+                  <img class="rounded" src="{{asset('images/patterns/app-store.jpg')}}" alt="app-store">
+                  <img class="rounded" src="{{asset('images/patterns/google-play.jpg')}}" alt="google-play">
                 </div>
               </div>
             </div>
